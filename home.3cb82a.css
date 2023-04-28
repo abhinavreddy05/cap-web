@@ -39,7 +39,7 @@
     width: 100%;
   }
   .hero-section .container {
-    padding-top: 0.9rem;
+    padding-top: 0.5rem;
   }
   .hero-section .video-block {
     height: 7.51rem;
@@ -65,22 +65,28 @@
     height: 100%;
     width: 100%;
   }
+  .hero-section .logo-present{
+    margin: 0 auto;
+    width: 3rem;
+    text-align: center;
+    margin-bottom: 0.2rem;
+  }
   .hero-section .hero-text {
     display: flex;
     flex-direction: column;
     margin-bottom: 1.35rem;
-    width: 5.07rem;
   }
   .hero-section .hero-text .text-block .title-h1 {
+    text-align: center;
     margin-bottom: 0.24rem;
   }
   .hero-section .hero-text .text-block .desc-1 {
-    font-size: 0.2rem;
+    text-align: center;
     margin-bottom: 0.4rem;
-    width: 3.7rem;
   }
   .hero-section .hero-text .buttons-block {
     display: flex;
+    margin: 0 auto;
   }
   .hero-section .hero-discover-more {
     align-items: center;
@@ -127,7 +133,7 @@
       width: 6.3rem;
     }
     .hero-section .container {
-      padding-top: 4.27rem;
+      padding-top: 0.5rem;
     }
     .hero-section .hero-text {
       margin-bottom: 0.63rem;
@@ -302,7 +308,7 @@
     width: 3.57rem;
   }
   .product-section .card__bg-lines {
-    background-image: url(assets/img/bgLine.6fecf8.png);
+    background-image: url("./assets/img/bgLine.6fecf8.png");
     background-position-y: bottom;
     background-repeat: repeat-x;
     border-radius: 0.14rem;
@@ -976,7 +982,7 @@
     width: 5.45rem;
   }
   .security-section .card__bg {
-    background-image: url(assets/img/bgLine.6fecf8.png);
+    background-image: url("./assets/img/bgLine.6fecf8.png");
     background-position-y: bottom;
     background-repeat: repeat-x;
     border-radius: 0.14rem;
@@ -1449,7 +1455,7 @@
     }
   }
   .players-section {
-    background: url(assets/img/blurBg.2e6e8d.png);
+    background: url("./assets/img/blurBg.2e6e8d.png");
     padding: 0.9rem 0;
   }
   .players-section .players-background .bg-circles {
@@ -1908,7 +1914,7 @@
     }
   }
   .developers-section {
-    background: url(assets/img/blurBg.2e6e8d.png);
+    background: url("./assets/img/blurBg.2e6e8d.png");
     padding: 1rem 0 1.31rem;
   }
   .developers-section .text-block {
@@ -2398,7 +2404,7 @@
     margin-bottom: 0.54rem;
   }
   .community-section .socials__link {
-    background: url(assets/img/blurBg.2e6e8d.png);
+    background: url("./assets/img/blurBg.2e6e8d.png");
     border-radius: 0.06rem;
     display: flex;
     flex-direction: column;
